@@ -8,8 +8,8 @@ public class App {
         Scanner leer = new Scanner(System.in);
         int contador=0;
 
-        for (int i = 0; i <=5; i++) {
-            System.out.println(" ingrese la temperatura " + i);
+        for (int i = 1; i <=5; i++) {
+            System.out.println(" ingrese la temperatura " + i + ":");
             double temperatura=leer.nextDouble();
             
             if (temperatura > 35.0) {
